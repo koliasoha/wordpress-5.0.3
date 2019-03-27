@@ -321,7 +321,7 @@ add_filter( 'wp_resource_hints', 'twentyseventeen_resource_hints', 10, 2 );
  */
 function twentyseventeen_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Blog Sidebar', 'twentyseventeen' ),
+		'name'          => __( 'FirstBlog Sidebar', 'twentyseventeen' ),
 		'id'            => 'sidebar-1',
 		'description'   => __( 'Add widgets here to appear in your sidebar on blog posts and archive pages.', 'twentyseventeen' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -559,7 +559,7 @@ add_filter( 'wp_get_attachment_image_attributes', 'twentyseventeen_post_thumbnai
  *
  * @param string $template front-page.php.
  *
- * @return string The template to be used: blank if is_home() is true (defaults to index.php), else $template.
+ * @return string The template to be used: blank if is_home() is true (defaults to blog.css), else $template.
  */
 function twentyseventeen_front_page_template( $template ) {
 	return is_home() ? '' : $template;

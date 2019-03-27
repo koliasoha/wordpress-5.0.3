@@ -2034,7 +2034,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	width: 48%;
 }
 
-/* Blog landing, search, archives */
+/* FirstBlog landing, search, archives */
 
 .blog .site-main > article,
 .archive .site-main > article,
@@ -3309,7 +3309,7 @@ p > object:only-child {
 		margin-bottom: 0;
 	}
 
-	/* Blog Index, Archive, Search */
+	/* FirstBlog Index, Archive, Search */
 
 	.taxonomy-description {
 		font-size: 14px;
@@ -3834,7 +3834,7 @@ p > object:only-child {
 		margin-top: 0;
 	}
 
-	/* Blog, archive, search */
+	/* FirstBlog, archive, search */
 
 	.sticky .icon-thumb-tack {
 		height: 23px;
