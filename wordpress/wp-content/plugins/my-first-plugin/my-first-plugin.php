@@ -7,6 +7,7 @@
  * Author: Soha Kolia
  * Author URI: http://www.mywebsite.com
  */
+
 add_action( 'the_content', 'my_thank_you_text' );
 
 function my_thank_you_text ( $content ) {
