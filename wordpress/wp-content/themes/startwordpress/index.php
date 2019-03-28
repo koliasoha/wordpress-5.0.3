@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog Template for Bootstrap</title>
+    <title>Installing Wordpress on your local computer:</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
@@ -42,8 +42,8 @@
 <div class="container">
 
     <div class="blog-header">
-        <h1 class="blog-title">The Bootstrap Blog</h1>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
+        <h1 class="blog-title">Installing Wordpress</h1>
+        <p class="lead blog-description"> Easy steps to download and setup wordpress.</p>
     </div>
 
     <div class="row">
@@ -51,65 +51,61 @@
         <div class="col-sm-8 blog-main">
 
             <div class="blog-post">
-                <h2 class="blog-post-title">Sample blog post</h2>
-                <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+                <h2 class="blog-post-title">Steps:</h2>
+                <p class="blog-post-meta">March 15, 2019 by <a href="#">Soha Kolia</a></p>
 
-                <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-                <hr>
-                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                <blockquote>
-                    <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </blockquote>
-                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                <h2>Heading</h2>
-                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                <h3>Sub-heading</h3>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <pre><code>Example code block</code></pre>
-                <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-                <h3>Sub-heading</h3>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <ul>
-                    <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                    <li>Donec id elit non mi porta gravida at eget metus.</li>
-                    <li>Nulla vitae elit libero, a pharetra augue.</li>
-                </ul>
-                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-                <ol>
-                    <li>Vestibulum id ligula porta felis euismod semper.</li>
-                    <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-                    <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-                </ol>
-                <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-            </div><!-- /.blog-post -->
+                <ol>Create a database go to View, located at the top toolbar, from the dropdown select tool windows select Database from tool windows.
 
-            <div class="blog-post">
-                <h2 class="blog-post-title">Another blog post</h2>
-                <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+                    On the right database screen will open up click the plus button underneath where it says database
 
-                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                <blockquote>
-                    <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </blockquote>
-                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            </div><!-- /.blog-post -->
+                        select mySQL. Once you database is selected enter the following script into your console
+                    </ol>
 
-            <div class="blog-post">
-                <h2 class="blog-post-title">New feature</h2>
-                <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
 
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <ul>
-                    <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                    <li>Donec id elit non mi porta gravida at eget metus.</li>
-                    <li>Nulla vitae elit libero, a pharetra augue.</li>
-                </ul>
-                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-            </div><!-- /.blog-post -->
+<ol>Create DATABASE wordpress3; CREATE user 'wordpress3'@'localhost' IDENTIFIED by 'password'; GRANT ALL PRIVILEGES ON wordpress3.* TO 'wordpress3'@'localhost'; FLUSH PRIVILEGES;
 
-            <nav>
+        then select run and select the first part of the code then run the second part of the code
+
+        Create new wordpress Copy the contents of the WordPress.zip into the phpstormProjects directory on your computer copy and paste the wp-config-example.php file in wordpress folder in the same folder and rename it wp-config.php
+
+        Edit wp-config.php open the wp-config.php file with your text editor change the code so it contains the same username, password, and database you just created
+    </ol>
+                <ol><p>Example{
+
+                        /** The name of the database for WordPress */ define('DB_NAME', 'wordpress3');
+
+                        /** MySQL database username */ define('DB_USER', 'wordpress3');
+
+                        /** MySQL database password */ define('DB_PASSWORD', 'password');
+
+                        /** MySQL hostname */ define('DB_HOST', '127.0.0.1');"
+
+                        }</p></ol>
+                <ol><p>setup run configuration at the top toolbar go to run select edit configurations select the pluss button and add a PHP Built-in web server where it says document root press the folder button and provide the path to your wordpress directory in your PhpstormProjects directory
+
+                        Example path {C:\Users"Username"\PhpstormProjects"Your wordpress directory name"}
+
+                        set the port to 8080. Press apply and hit okay. change interpreter to the python you are running 7.3 or 7.2
+
+                        Run Website press the run button to start your server open your browser in your address bar and type in the address localhost:8080
+
+                        You should then be directed to the wordpress installation screen</p></ol>
+
+                <h3>Making a git repository and collaborating:</h3>
+                <ol><p>Create a new github repository. One member of the group creates a new repository on github. Thus person is the owner of the repository and has the master branch.</p></ol>
+            <ol><p>Upload the wordpress project in PHPStorm to github. In PHPStorm go to VCS| Import into Version Control| Share Project on Github</p></ol>
+                <ol><p>Add collaborator on Github. Go to Settings| Collaborators enter your github password when asked. In the Collaborator window search for you partners github username and add them. Your partner must have received an email, they will need to accept the invitation and confirm.</p></ol>
+<ol> <p>Cloning the repository. The second member of the group needs to copy the https link from the github repository that the first person made. Go to PHPStorm VCS| Checkout from Version Control| Git. In the window that pops up, paste the link and clone the repository.</p></ol>
+ <ol><p>Create another branch. The second person needs to create another branch so that they can commit and push the changes that they make to the project. In the bottom right corner of PHPStorm click where it says Git:master and make a new branch.</p></ol>
+<ol><p>Merge the branches. After all the changes are commited and pushed to github by both members the owner of the repository can go to github, navigate to branches| all branches| merge.</p></ol>
+<h3>Troubleshooting Tips: </h3>
+                <ol><p>Increase wait time
+                        make sure to set max_execution_time to 120 in your php.ini you can do this by going to your PHP installation folder in your PHP7 folder in your C: (or wherever you installed it) open the php.ini file once the file is open press ctrl+f open word search type in max, search through the keywords until you find change max_execution_time to 120 change max_input_time to 60 if not already set to 60</p></ol>
+<ol><p>Allocate more Memory in the same file make sure that your memory_limit is set to 1G instead of 128M</p></ol>
+                <ol><p>Uncomment certain dll's make sure you have the following dll's uncommented { extension=php_gd2.dll extension=php_curl.dll extension=php_mbstring.dll extension=php_openssl.dll extension=php_pdo_mysql.dll extension=php_pdo_sqlite.dll extension=php_sockets.dll extension=mysqli.dll } Also for where it reads { ; extension_dir = "ext" } remove the ; so the line reads extension_dir = "ext"</p></ol>
+<ol><p>You might get an error asking you to fix the interpreter. To fix this error go to Run| Edit Configuration click where it says fix. Choose PHP version 7 or higher.</p></ol>
+
+                <nav>
                 <ul class="pager">
                     <li><a href="#">Previous</a></li>
                     <li><a href="#">Next</a></li>
@@ -118,12 +114,8 @@
 
         </div><!-- /.blog-main -->
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-            <div class="sidebar-module sidebar-module-inset">
-                <h4>About</h4>
-                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            </div>
-            <div class="sidebar-module">
+
+            <div class="sidebar-module sidebar">
                 <h4>Archives</h4>
                 <ol class="list-unstyled">
                     <li><a href="#">March 2014</a></li>
